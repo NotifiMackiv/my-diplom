@@ -1,0 +1,230 @@
+<html>
+
+<head>
+	<title>Fast Food App</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Меню</a></li>
+				<li class="cart"><a href="#"><i class="fa fa-shopping-cart"></i> Кошик (0)</a></li>
+				<li><a href="#">Доставка</a></li>
+				<a href="#contacts" class="nav-link">Контакти</a>
+			</ul>
+			<section id="contacts">
+				<div class="info">
+					Зробимо все швидко та смачно
+				</div>
+			</section>
+			<form id="search-form">
+				<input type="text" id="search-input" placeholder="Пошук...">
+				<button type="submit">Знайти</button>
+			</form>
+			<div id="search-results">
+				<!-- Результати пошуку будуть виведені тут -->
+			</div>
+			<div id="cart-items">Тут будуть відображені товари в кошику</div>
+		</nav>
+	</header>
+
+	<div class="info-banner">
+		<h2>Знижки на замовлення до 31 березня</h2>
+		<p>Зробіть замовлення на суму понад 200 грн та отримайте знижку 10%!</p>
+		<button>Замовити зараз</button>
+	</div>
+
+	<div class="product-catalog">
+		<div class="product">
+			<img src="images/default-burger.jpg" alt="Burger">
+			<h3>Burger</h3>
+			<p>Класичний бургер зі салатом, томатами та сиром</p>
+			<span class="price">220 грн</span>
+			<button class="add-to-cart">Вибрати</button>
+		</div>
+		<div class="product">
+			<img src="images/Картофель-Фри-стандартная-порция-в-Макдональдс.png" alt="Fries">
+			<h3>Fries</h3>
+			<p>Золотисто-коричневі картопляні стрічки, хрусткі ззовні та м'які всередині</p>
+			<span class="price">110 грн</span>
+			<button class="add-to-cart">Вибрати</button>
+		</div>
+		<!-- add more products here -->
+	</div>
+
+
+	<section class="offers">
+		<div class="container">
+			<h2>Акційні пропозиції</h2>
+			<div class="offer-cards">
+				<div class="offer-card">
+					<img src="images/minus20-za-samovynis.jpg" alt="Акційна пропозиція 1">
+					<h3>Замовляйте 2 піци з додатком та отримуйте знижку 20%</h3>
+				</div>
+				<div class="offer-card">
+					<img src="images/French_fries_Hamburger_Fast_food_Coca-Cola_572340_1280x853.jpg"
+						alt="Акційна пропозиція 2">
+					<h3>При замовленні гамбургера та кока-коли - картошка фрі у подарунок</h3>
+				</div>
+				<div class="offer-card">
+					<img src="images/pica5679.jpg" alt="Акційна пропозиція 3">
+					<h3>Новий смак - піца "Маргарита з тунцем" - за суперціною 99 грн</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- HTML код продукту -->
+	<div class="product">
+		<img src="images/72c5621afb2b6f8093760aafe2461a652d3c7f9f.jpeg" alt="Product Image">
+		<h3>McFlurry</h3>
+		<p>МакФлурі - це м'яке морозиво, яке продається тільки в мережі швидкого харчування McDonald's. В морозиво
+			входить молоко, вершкова паста, м'яка карамель та шматочки шоколаду та вафель. Один порція складає 200
+			грамів. У складі міститься лактоза з молока, глютен з вафель, а також какао.</p>
+		<span class="price">370 грн</span>
+		<button class="add-to-cart">Вибрати</button>
+	</div>
+
+
+	<section class="testimonials">
+		<div class="container">
+			<h2>Відгуки клієнтів</h2>
+			<div class="testimonials-list">
+				<div class="testimonial">
+					<div class="testimonial-info">
+						<img src="images/433416_140.jpg" alt="Аватар користувача">
+						<div class="testimonial-name">Іван Петров</div>
+					</div>
+					<p class="testimonial-text">Дуже смачна їжа, швидка доставка і чудове обслуговування!</p>
+					<div class="testimonial-rating">
+						<i class="fa fa-star active"></i>
+						<i class="fa fa-star active"></i>
+						<i class="fa fa-star active"></i>
+						<i class="fa fa-star active"></i>
+						<i class="fa fa-star"></i>
+					</div>
+				</div>
+				<div class="testimonial">
+					<div class="testimonial-info">
+						<img src="images/4f30be9bc525d19216f89c7f2033fdd2.jpg" alt="Аватар користувача">
+						<div class="testimonial-name">Олена Іванова</div>
+					</div>
+					<p class="testimonial-text">Дуже задоволена обслуговуванням і якістю їжі. Обов'язково замовлю ще раз!
+					</p>
+					<div class="testimonial-rating">
+						<i class="fa fa-star active"></i>
+						<i class="fa fa-star active"></i>
+						<i class="fa fa-star active"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+					</div>
+				</div>
+				<div class="testimonial">
+					<div class="testimonial-info">
+						<img src="images/d62b256ffecf7bd5d973c7be563c990b.jpg" alt="Аватар користувача">
+						<div class="testimonial-name">Марія Сидоренко</div>
+					</div>
+					<p class="testimonial-text">Неймовірно швидка доставка та якісна їжа. Дуже задоволена!</p>
+					<div class="testimonial-rating">
+						<i class="fa fa-star active"></i>
+						<i class="fa fa-star active"></i>
+						<i class="fa fa-star active"></i>
+						<i class="fa fa-star active"></i>
+						<i class="fa fa-star"></i>
+					</div>
+				</div>
+			</div>
+
+			<section class="order">
+				<div class="container">
+					<h2>Оформлення замовлення</h2>
+					<form>
+						<div class="form-group">
+							<label for="name">Ім'я:</label>
+							<input type="text" id="name" name="name" required>
+						</div>
+						<div class="form-group">
+							<label for="phone">Телефон:</label>
+							<input type="tel" id="phone" name="phone" required>
+						</div>
+						<div class="form-group">
+							<label for="email">Email:</label>
+							<input type="email" id="email" name="email" required>
+						</div>
+						<div class="form-group">
+							<label for="address">Адреса:</label>
+							<input type="text" id="address" name="address" required>
+						</div>
+						<div class="form-group">
+							<label for="food">Оберіть страву:</label>
+							<select id="food" name="food" required>
+								<option value="burger">Бургер</option>
+								<option value="pizza">Піца</option>
+								<option value="sushi">Суші</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="quantity">Кількість:</label>
+							<input type="number" id="quantity" name="quantity" required>
+						</div>
+						<div class="form-group">
+							<label for="comments">Коментар:</label>
+							<textarea id="comments" name="comments"></textarea>
+						</div>
+
+						<!-- Поля форми замовлення -->
+						<button type="submit" id="submit-btn">Замовити</button>
+
+
+					</form>
+				</div>
+			</section>
+
+			<section class="info-section">
+				<div class="container">
+					<div class="info-text">
+						<h2>Про нас</h2>
+						<p>Ми - компанія, яка пропонує найкращі страви швидкого харчування в місті. Наша мета - зробити
+							смачну та здорову їжу доступною кожному.</p>
+						<p>Наш меню складається з різноманітних страв - від бургерів та сендвічів до салатів та супів. Ми
+							використовуємо тільки свіжі продукти в наших стравах, щоб забезпечити максимальний смак та
+							користь для вашого здоров'я.</p>
+						<p>Для зручності наших клієнтів, ми пропонуємо швидку доставку їжі прямо до дверей вашого дому.
+							Замовлення можна зробити онлайн через наш сайт або за телефоном.</p>
+					</div>
+					<div class="info-image">
+						<img src="images/IMG_0329-publication_hero-desktop.jpg" alt="Фото нашого закладу">
+					</div>
+				</div>
+			</section>
+			<footer>
+				<div class="footer-container">
+
+
+					<div class="footer-column">
+						<h3>Contact Us</h3>
+						<p>Вулиця Шевченка, 42<br>Херсон, UKraine<br>Phone: +380992314354<br>Email:
+							info@yourfastfoodbusiness.com</p>
+					</div>
+					<div class="footer-column">
+						<h4>Follow Us</h4>
+						<ul class="social-icons">
+							<li><a href="facebook.com"><i class="fa fa-facebook"></i>facebook.com</a></li>
+							<li><a href="instagram.com"><i class="fa fa-twitter"></i>instagram.com</a></li>
+							<li><a href="TikTok.com"><i class="fa fa-instagram"></i>TikTok.com</a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+
+
+		</div>
+
+	</section>
+
+	<script src="javascript.js"></script>

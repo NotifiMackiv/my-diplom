@@ -1,0 +1,381 @@
+body {
+	background: url(https://phonoteka.org/uploads/posts/2022-01/1642455295_1-phonoteka-org-p-fon-s-fast-fudom-krasivo-1.jpg);
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	
+ }
+ 
+ /* Header Styles */
+ header {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+ }
+ 
+ nav ul {
+	margin: 0;
+	font-size: 30px;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+ }
+ 
+ nav li {
+	margin: 0 10px;
+ }
+ 
+ nav a {
+	color: green;
+	text-decoration: none;
+	text-transform: uppercase;
+ }
+
+ .info {
+	border:6px solid rgb(255, 159, 14);
+	border-radius: 8px;
+	font-size: 30px;
+	color: yellow;
+	font-family: italic;
+ }
+
+ #search-form {
+	padding: 20px;
+ }
+
+ .info-banner {
+	margin-left: 20%;
+	margin-right: 20%;
+	background: radial-gradient(rgb(194, 225, 23),rgb(2, 141, 240));
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+ }
+ 
+ .info-banner h2 {
+	font-size: 32px;
+	margin-top: 0;
+ }
+ 
+ .info-banner p {
+	font-size: 18px;
+	margin-bottom: 20px;
+ }
+ 
+ .info-banner button {
+	background-color: #fff;
+	color: #f1c40f;
+	font-size: 20px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+ }
+ 
+ .info-banner button:hover {
+	background-color: yellow;
+	color: #fff;
+ }
+ 
+ .product-catalog {
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: space-between;
+ }
+ 
+ .product {
+	width: 30%;
+	background-color: greenyellow;
+	margin-bottom: 30px;
+	margin-left: 35%;
+	padding: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	text-align: center;
+ }
+ 
+ .product img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	margin-bottom: 10px;
+ }
+ 
+ .product h3 {
+	margin-bottom: 5px;
+	font-size: 1.5rem;
+ }
+ 
+ .product p {
+	margin-bottom: 10px;
+	font-size: 1.2rem;
+ }
+ 
+ .product .price {
+	font-size: 1.5rem;
+	font-weight: bold;
+ }
+ 
+ .product .add-to-cart {
+	display: block;
+	margin: 10px auto 0;
+	padding: 10px 20px;
+	background-color: #e74c3c;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+ }
+ 
+ .product .add-to-cart:hover {
+	background-color: #c0392b;
+ }
+
+ .offers {
+	background: linear-gradient(to bottom, #cf1a1a, #0fdbe5);
+	padding: 50px 0;
+ }
+ 
+ .offers h2 {
+	text-align: center;
+	color:yellow;
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 30px;
+ }
+ 
+ .offer-cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+ }
+ 
+ .offer-card {
+	margin: 20px;
+	max-width: 400px;
+	text-align: center;
+ }
+ 
+ .offer-card img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	margin-bottom: 10px;
+ }
+ 
+ .offer-card h3 {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+ }
+
+ /* CSS стилі продукту */
+.product {
+	position: relative;
+	transition: transform 0.3s ease-in-out;
+ }
+ 
+ .product:hover {
+	transform: translateY(-5px);
+ }
+
+ /* CSS стилі продукту */
+.product {
+	position: relative;
+	transition: transform 0.3s ease-in-out;
+ }
+ 
+ .product:hover {
+	transform: translateY(-5px);
+ }
+
+ .testimonials {
+	background: radial-gradient(yellow,rgb(6, 245, 6));
+	
+	padding: 20px 0;
+ }
+
+ .testimonials h2 {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 60px;
+ }
+
+ .testimonial {
+	background-color: #fff;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+	padding: 40px;
+	margin-bottom: 40px;
+	position: relative;
+ }
+
+ .testimonial-info {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+ }
+
+ .testimonial-info img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-right: 20px;
+ }
+
+ .testimonial-name {
+	font-size: 24px;
+	font-weight: 600;
+ }
+
+ .testimonial-text {
+	font-size: 20px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+ }
+
+ .testimonial-rating {
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	font-size: 24px;
+	color: #ffc107;
+ }
+
+ .testimonial-rating i {
+	margin-right: 5px;
+ }
+
+ .testimonial-rating .active {
+	color: #ff9800;
+ }
+ 
+ .order {
+	background: radial-gradient(at top, #0ff2f2, #a9c90a);
+	padding: 50px 0;
+ }
+ 
+ .order h2 {
+	text-align: center;
+	margin-bottom: 30px;
+ }
+ 
+ form {
+	max-width: 500px;
+	margin: 0 auto;
+ }
+ 
+ .form-group {
+	margin-bottom: 20px;
+ }
+ 
+ label {
+	display: block;
+	margin-bottom: 5px;
+ }
+ 
+ input[type="text"],
+ input[type="tel"],
+ input[type="email"],
+ select,
+ textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-bottom: 10px;
+ }
+ 
+ textarea {
+	height: 150px;
+ }
+ 
+ button[type="submit"] {
+	background-color: #ff8c00;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+ border-radius: 5px;
+ font-size: 16px;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+ }
+ 
+ button[type="submit"]:hover {
+ background-color: #ff6d00;
+ }
+ 
+ .error {
+ color: red;
+ font-size: 14px;
+ margin-top: 5px;
+ }
+ 
+ .success {
+ color: green;
+ font-size: 14px;
+ margin-top: 5px;
+ }
+
+ .info-section {
+	background: #0fdbe5;
+ }
+ 
+ .info-text {
+	width: 60%;
+	margin-right: 5%;
+	float: left;
+ }
+ 
+ .info-text h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+ }
+ 
+ .info-text p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+ }
+ 
+ .info-image {
+	width: 35%;
+	float: left;
+ }
+ 
+ .info-image img {
+	max-width: 100%;
+ }
+ 
+ .social-icons {
+	width: 150px;
+ }
+
+ .footer-container {
+	background: linear-gradient(rgb(112, 31, 158),rgb(10, 244, 73));
+ }
+
+
+ .footer-column h3,p {
+	position: relative;
+	text-align: center;
+
+ }
+
+ .footer-column h4 {
+	padding-left: 2%;
+ }
+ /*кошик*/
+
+
+ 
+ 
